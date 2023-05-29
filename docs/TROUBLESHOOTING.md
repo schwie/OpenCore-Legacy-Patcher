@@ -163,7 +163,7 @@ The reason for this is that the autopatcher will assume that you will be using t
 
 ## Keyboard, Mouse and Trackpad not working in installer or after update
 
-For Macs using legacy USB 1.1 controllers, OpenCore Legacy Patcher can only restore support once it has performed root volume patches. Thus to install macOS, you need to hook up a USB hub between your Mac and Keyboard/Mouse.
+For Macs using legacy USB 1.1 controllers, OpenCore Legacy Patcher can only restore support once it has performed root volume patches. Thus to install macOS, you need to hook up a USB hub between your Mac and Keyboard/Mouse, one exception to this is Apple's A1243 EMC 2171 keyboard, when this device is plugged into a Mac listed below and a USB mouse is plugged into the A1243 keyboard, an external USB hub is not necessary - this works because Apple designed the USB ports integrated with the A1243 keyboard to behave as a USB hub.
 
 * For MacBook users, you'll need to find an external keyboard/mouse in addition to the USB hub
 
